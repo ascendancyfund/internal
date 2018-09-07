@@ -9,7 +9,6 @@ email:     	info@themepunch.com
 website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 
-
 /****************************************
 	-	BASIC SETTINGS FOR PORTFOLIO-
 *****************************************/
@@ -62,7 +61,6 @@ left: 0;
 .esg-starring .star-rating {
 color: #FFC321 !important;
 }
-
 
 .esg-starring .star-rating, .esg-starring-page .star-rating {
 line-height: 1em;
@@ -125,15 +123,11 @@ font-family: star;
          display: none;
 	/*	 -moz-backface-visibility: hidden;*/
 
-
-
-
 }
 
 .esg-clear				{	clear:both; height:5px !important; background: none !important; }
 .esg-clear-no-height,
 .eg-clearfix			{	clear:both; height:0px !important; background: none !important; }
-
 
 .esg-divide-5	{	width:100%;height:5px}
 .esg-divide-15	{	width:100%;height:15px}
@@ -153,15 +147,11 @@ font-family: star;
 
 .esg-container .tp-esg-item					{ 	position:absolute; top:0px;left:0px; }
 
-
 .esg-container .tp-esg-item					{	box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .esg-container .tp-esg-item .blackoverlay	{	width:100%;height:100%;position: absolute;background:#000; top:0px;left:0px;}
 
-
-
 .tp-esg-item					{	z-index:5 }
 .tp-esg-item.itemonotherpage	{	z-index:0; display:none;}
-
 
 /******************************
 	-	ESG ITEM POSITIONS	-
@@ -182,11 +172,9 @@ font-family: star;
 .esg-rc 			{	top:0px;right:0px; height:100%;}
 .esg-bc 			{	bottom:0px;left:0px; width:100%;}
 
-
 /* TOP CONTAINERS */
 
 .esg-tc .ess-tb-cell			{	text-align:center; vertical-align: top; }
-
 
 /* CENTER CONTAINERS */
 .esg-lc .ess-tb-cell			{	text-align:left; vertical-align: middle;}
@@ -199,7 +187,6 @@ font-family: star;
 .esg-brc .ess-tb-cell			{	text-align:right; vertical-align: bottom;}
 
 .esg-bc .leftalign	{	text-align:left;}
-
 
 /******************************
 	-	ESG MEDIA	-
@@ -218,13 +205,10 @@ font-family: star;
 
 }
 
-
 .esg-layout-even .esg-entry-media,
 .esg-layout-even .esg-entry-media img		{	height:100%;}
 
-
 .esg-layout-even .esg-entry-media img		{	display:none}
-
 
 .esg-media-cover-wrapper					{	position: relative; width:100%;}
 .esg-layout-even .esg-media-cover-wrapper	{	height:100%;}
@@ -232,11 +216,9 @@ font-family: star;
 .esg-entry-media-wrapper					{	z-index: 0; }
 .esg-entry-media-wrapper .esg-video-frame	{ 	background: #000;}
 
-
 /**********************************
 	-	ESG COVER CONTAINER	-
 **********************************/
-
 
 .esg-entry-cover .esg-overlay						{	position: absolute; top:0px;left:0px; width:100%; height:100%; border: 0px solid transparent;
          												outline: 0px solid transparent;}
@@ -244,9 +226,7 @@ font-family: star;
 	-	ESG CONTNER PART	-
 ********************************/
 
-
 .esg-layout-even .esg-entry-content					{	display:none; }
-
 
 .esg-entry-content									{
 														box-sizing:border-box;
@@ -255,8 +235,6 @@ font-family: star;
 														-webkit-backface-visibility: hidden;
 
 													}
-
-
 
 /******************************
 	-	NAVIGATION SKINS	-
@@ -310,8 +288,6 @@ font-family: star;
 														cursor: pointer;
 														background: rgba(0, 0, 0, 0);}
 
-
-
 /** SAME SETTINGS FOR ALL SKIN **/
 .esg-sortbutton-order.tp-desc					{	-moz-transform: scaleY(-1);
 												        -o-transform: scaleY(-1);
@@ -334,7 +310,6 @@ font-family: star;
 .esg-navigationbutton.esg-right,
 .esg-navigationbutton.esg-left				{	margin-left:0px !important; margin-right:0px !important; -webkit-transform-style: flat; -webkit-transform: translateZ(5000px);}
 
-
 /*************************************************
 	-	LET / RIGHT WIDGET AREA CONTAINERS	-
 **************************************************/
@@ -346,7 +321,6 @@ font-family: star;
 .eg-leftright-container .esg-filters		{	padding:30px; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
 .eg-leftright-container .esg-filterbutton	{	display:block; margin:0px 0px 5px 0px}
 .eg-leftright-container .esg-filter-wrapper	{	 display:block; margin-right:0px;}
-
 
 /***********************************
 	-	AJAX TARGET CONTAINER	-
@@ -372,7 +346,6 @@ font-family: star;
 				z-index:10000;
 				position:absolute;
 
-
 			}
 
 .esg-loader.spinner0 {
@@ -391,7 +364,6 @@ font-family: star;
 	-webkit-border-radius: 3px;
 }
 
-
 .esg-loader.spinner1 {
   width: 40px;
   height: 40px;
@@ -407,8 +379,6 @@ font-family: star;
 	-webkit-border-radius: 3px;
 }
 
-
-
 .esg-loader.spinner5 	{	background:url(/wp-content/plugins/essential-grid/public/assets/images/loader.gif) no-repeat 10px 10px;
 							background-color:#fff;
 							margin:-22px -22px;
@@ -417,7 +387,6 @@ font-family: star;
 							-moz-border-radius: 3px;
 							-webkit-border-radius: 3px;
 						}
-
 
 @-webkit-keyframes esg-rotateplane {
   0% { -webkit-transform: perspective(120px) }
@@ -437,7 +406,6 @@ font-family: star;
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
-
 
 .esg-loader.spinner2 {
   width: 40px;
@@ -469,9 +437,6 @@ font-family: star;
     opacity: 0;
   }
 }
-
-
-
 
 .esg-loader.spinner3 {
   margin: -9px 0px 0px -35px;
@@ -528,9 +493,6 @@ font-family: star;
   }
 }
 
-
-
-
 .esg-loader.spinner4 {
   margin: 0px 0px 0px -20px;
   width: 40px;
@@ -579,8 +541,6 @@ font-family: star;
     -webkit-transform: scale(1.0);
   }
 }
-
-
 
 /****************************
 * Fontello Icons
@@ -832,7 +792,6 @@ font-family: star;
 .eg-icon-pencil-1:before { content: '\e831'; } /* '' */
 .eg-icon-align-justify:before { content: '\e861'; } /* '' */
 
-
 /* GENERAL STYLE MODS ADDED IN 1.1.0 */
 
 .esg-filter-wrapper .esg-filterbutton:last-child,
@@ -841,7 +800,6 @@ font-family: star;
 .esg-singlefilters .esg-filter-checked							{	display:none !important}
 
 /*#firstcontentcontainer	{	background:#fff !important; background-image:none !important}*/
-
 
 /*****************************************
 	-	AJAX LOADED CONTENT STYLING	-
@@ -879,12 +837,8 @@ input.eg-search-input[type="text"],
 .eg-search-submit,
 .eg-search-clean	{ cursor: pointer}
 
-
 .eg-search-wrapper								{	vertical-align: top; line-height:40px;}
 input.eg-search-input[type="text"]				{	font-family: "Open Sans",sans-serif;outline:none !important;margin:0px 0px 5px !important; padding:8px 15px;  vertical-align: middle;}
-
-
-
 
 /*****************************************
 	-	AJAX NAVIGATION BUTTON STYLING	-
@@ -894,7 +848,6 @@ input.eg-search-input[type="text"]				{	font-family: "Open Sans",sans-serif;outl
 
 .eg-acp-inner.eg-acp-tr .eg-ajax-closer.eg-ajax-navbt,
 .eg-acp-inner.eg-acp-br .eg-ajax-closer.eg-ajax-navbt	{	margin-right:0px}
-
 
 .eg-ajax-closer-wrapper.eg-acp-tl,
 .eg-ajax-closer-wrapper.eg-acp-bl	{	 text-align: left; }
@@ -909,8 +862,6 @@ input.eg-search-input[type="text"]				{	font-family: "Open Sans",sans-serif;outl
 .eg-ajax-closer-wrapper.eg-acp-bl,
 .eg-ajax-closer-wrapper.eg-acp-br,
 .eg-ajax-closer-wrapper.eg-acp-b	{margin-top:5px;}
-
-
 
 .eg-acp-inner	{	display: block; position:absolute; z-index:50; margin:5px;}
 
@@ -931,7 +882,6 @@ input.eg-search-input[type="text"]				{	font-family: "Open Sans",sans-serif;outl
 .eg-acp-inner.eg-acp-t,
 .eg-acp-inner.eg-acp-b	{	left:50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);-moz-transform: translateX(-50%);}
 
-
 .eg-ajax-navbt					{	line-height:21px; background:#000; background:rgba(0,0,0,0.75); color:#fff; border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px; text-transform: uppercase; padding:1px 1px 0px 0px; font-size:11px; font-weight:400; }
 .eg-ajax-closer.eg-ajax-navbt	{	padding: 1px 5px 1px 3px;vertical-align: top;}
 .eg-acp-light .eg-ajax-navbt	{	background:#e5e5e5; color:#000;}
@@ -945,8 +895,6 @@ input.eg-search-input[type="text"]				{	font-family: "Open Sans",sans-serif;outl
 .eg-acp-type1 .eg-ajax-navbt	{	width: 40px;height: 40px;text-align: center;vertical-align: medium !important; line-height: 40px; padding:0px;}
 
 .eg-acp-type1 .eg-ajax-closer.eg-ajax-navbt	{	vertical-align: top; font-size:24px; font-weight:300; font-family: sans-serif; height: auto;line-height: 28px;padding: 8px 0px 4px;}
-
-
 
 span.eg-el-amount:before	{	content:"("}
 span.eg-el-amount:after		{	content:")"}

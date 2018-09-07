@@ -1,17 +1,16 @@
 jQuery(document).ready(function($){
-	
+
 	"use strict";
 
 	// Main Menu
 	jQuery('ul.sf-menu').superfish({
-		animation:     {height:'show'},   
-		animationOut:  {height:'hide'}, 
-		speed:         'fast',           
-		speedOut:      'fast', 
+		animation:     {height:'show'},
+		animationOut:  {height:'hide'},
+		speed:         'fast',
+		speedOut:      'fast',
 		delay:         800,
-		pathClass:	'current'           
+		pathClass:	'current'
 	});
-
 
 	// Toggle Submenu Fuction
 	jQuery.fn.toggle = function( fn, fn2 ) {
@@ -33,12 +32,12 @@ jQuery(document).ready(function($){
 	  }
 	  return this.click( toggler );
 	};
-	
+
 	// Responsive Mobile Menu
 	var navlist = jQuery('.site-menu > nav ul').clone();
 	var submenu = '<span class="submenu"></span>';
     navlist.removeClass().addClass('mobile-menu bottom-0 list-unstyled');
-    
+
     navlist.find('ul').removeAttr('style');
     navlist.find('.sf-with-ul').after(submenu);
     navlist.find('.submenu').toggle(function(){
@@ -51,7 +50,6 @@ jQuery(document).ready(function($){
     	position: "right",
     	zposition: "front"
     });
-
 
 	// Background
 	jQuery('.section').each(function(){
@@ -99,7 +97,6 @@ jQuery(document).ready(function($){
 		});
 	});
 
-
 	// Elements
 	jQuery('.element').each(function(){
 		var elm = jQuery(this);
@@ -127,7 +124,7 @@ jQuery(document).ready(function($){
 		});
 
 		jQuery('.portfolio-item').each(function() {
-			
+
 			jQuery(this).find('.fir-link').css({'left' : jQuery(this).width()/2-22.5, 'top' : jQuery(this).height()/2-40, 'opacity' : 0});
 			jQuery(this).find('.sec-link').css({'right' : jQuery(this).width()/2-22.5, 'top' : jQuery(this).height()/2-40, 'opacity' : 0});
 
@@ -186,7 +183,7 @@ jQuery(document).ready(function($){
 		  resizeTimer = setTimeout(erivic_hover, 0);
 		}).resize();
 	});
-	
+
 	// Post Media Videos
 	jQuery(".post-media").fitVids();
 
@@ -206,7 +203,7 @@ jQuery(document).ready(function($){
 		closeOnContentClick: true,
     	closeBtnInside: false,
     	fixedContentPos: true,
-    	mainClass: 'mfp-no-margins mfp-with-zoom', 
+    	mainClass: 'mfp-no-margins mfp-with-zoom',
     	image: {
     		verticalFit: true
     	}
@@ -341,7 +338,7 @@ jQuery(document).ready(function($){
 		jQuery('.carouselbox').each(function() {
 			var next = jQuery(this).find('.prev');
 			var prev = jQuery(this).find('.next');
-			
+
 			jQuery(this).find('.carousel-area').carouFredSel({
 				circular: false,
 				responsive: true,
@@ -360,9 +357,9 @@ jQuery(document).ready(function($){
 				scroll : {
 		            items           : 1,
 		            easing          : "jswing",
-		            duration        : 1000,                         
+		            duration        : 1000,
 		            pauseOnHover    : true
-		        }   
+		        }
 			});
 		});
 
@@ -383,7 +380,7 @@ jQuery(document).ready(function($){
 		});
 
 	});
-	
+
 	// Add class to contac form 7
 	jQuery('.wpcf7-form').addClass('form');
 

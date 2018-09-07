@@ -1,13 +1,13 @@
 /**
  * jQuery.fastClick.js
- * 
+ *
  * Work around some mobile browser's 300ms delay on the click event.
- * 
+ *
  * Code based on <http://code.google.com/mobile/articles/fast_buttons.html>
  * Warning will break href contained in the element bound
  * @usage
  * $('button').fastClick(function() { });
- * 
+ *
  * @license Under Creative Commons Attribution 3.0 License
  * @author Morgan Laupies
  * @version 0.2 2011-09-20
@@ -16,7 +16,7 @@
 /*global document, window, jQuery, Math */
 
 (function($) {
-	
+
 	var clickBuster = {};
 	clickBuster.coordinates = [];
 	clickBuster.preventGhostClick = function(x, y) {
@@ -37,19 +37,16 @@
 		  }
 	};
 	document.addEventListener('click', clickBuster.onClick, true);
-	
-	
 
  var FastButton = function(element, handler) {
-	
-	 
+
 	 /// Remove previous event listener ( Merge them ? )
 	 this.element = element;
 	 this.handler = handler;
-	 
+
 	 element.addEventListener('touchstart', this, false);
 	 element.addEventListener('click', this, false);
-	
+
 };
 
 FastButton.prototype.handleEvent = function( event ){
@@ -93,12 +90,10 @@ FastButton.prototype.reset = function() {
 	  document.body.removeEventListener('touchmove', this, false);
 };
 
-
-
 $.fn.fastClick = function(handler) {
 	return $(this).each(function(){
 		new FastButton( $(this)[0] , handler );
 	});
 };
-	
+
 }(jQuery));

@@ -73,13 +73,10 @@
     return a;
   }
 
-
   function scrollReveal(options) {
       this.options = extend(this.defaults, options);
       this._init();
   }
-
-
 
   scrollReveal.prototype = {
     defaults: {
